@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: []
+  root: "/dist",
+  plugins: [],
+  base: './'
 });
